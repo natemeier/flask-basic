@@ -1,7 +1,7 @@
 
 from flask import Flask
 
-from views.public import public
+from app.views.public import public
 
 
 def create_app(config, debug=False):
